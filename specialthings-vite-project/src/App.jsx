@@ -333,9 +333,12 @@ export default function GraduationAlbumLanding() {
             </div>
           </div>
 
-          <button className="md:hidden h-11 w-11 rounded-full bg-black text-white flex items-center justify-center">
-            <Menu size={18} />
-          </button>
+         <button
+  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+  className="md:hidden h-11 w-11 rounded-full bg-black text-white flex items-center justify-center"
+>
+  <Menu size={18} />
+</button>
         </div>
       </header>
 
