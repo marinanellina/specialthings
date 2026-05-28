@@ -266,7 +266,29 @@ export default function GraduationAlbumLanding() {
           <h2 className="text-lg font-semibold tracking-tight">
             {t.brand}
           </h2>
+<div className="flex md:hidden items-center gap-2 mt-4">
+  <button
+    onClick={() => setLanguage('ru')}
+    className={`px-3 py-1 rounded-full text-xs ${
+      language === 'ru'
+        ? 'bg-black text-white'
+        : 'bg-white text-black'
+    }`}
+  >
+    RU
+  </button>
 
+  <button
+    onClick={() => setLanguage('en')}
+    className={`px-3 py-1 rounded-full text-xs ${
+      language === 'en'
+        ? 'bg-black text-white'
+        : 'bg-white text-black'
+    }`}
+  >
+    EN
+  </button>
+</div>
           <div className="hidden md:flex items-center gap-8">
             <nav className="flex items-center gap-8 text-sm text-neutral-600">
             <a href="#portfolio" className="hover:text-black transition">
