@@ -59,7 +59,7 @@ const translations = {
         text: 'Кружки, подушки, пазлы и семейные подарки.'
       },
       {
-        title: 'Мой мерч',
+        title: 'Мерч',
         text: 'Худи, футболки и персональный мерч с уникальным дизайном.'
       }
     ],
@@ -139,7 +139,7 @@ const translations = {
         text: 'Mugs, pillows, puzzles and meaningful family gifts.'
       },
       {
-        title: 'My Merch',
+        title: 'Merch',
         text: 'Hoodies, t-shirts and personalized merchandise with unique designs.'
       }
     ],
@@ -243,7 +243,7 @@ export default function GraduationAlbumLanding() {
     },
     {
       icon: Shirt,
-      title: 'My Merch',
+      title: 'Merch',
       text: 'Худи, футболки и персональный мерч с уникальным дизайном.',
       image:
         'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1200&auto=format&fit=crop'
